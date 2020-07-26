@@ -1,5 +1,6 @@
 # Electronic-Nose-Data-Collection
 Instructions to setup the data collection server using MQTT.
+I have written this to allow recreation of the server from first principles to reduce the bus factor.
 
 
 # Initial Server Setup
@@ -152,6 +153,31 @@ MQTTLens (https://chrome.google.com/webstore/detail/mqttlens/hemojaaeigabkbcookm
 Remember your username and password!!
 
 # Setting up Flask Web Server
+
+Now that the MQTT broker is setup, we can move on to setting up the Flask Project which will be used to power the data recording webapp and other e-nose features.
+
+## Directories
+
+Setup a working directory
+```
+mkdir enose_app && cd enose_app
+```
+
+Setup a virtual environment
+```
+python3 -m venv env
+source env/bin/activate
+```
+
+Install Flask
+```
+python3 -m pip install Flask
+```
+
+Add installed libraries to the requirements
+```
+python3 -m pip freeze > requirements.txt
+```
 
 
 
