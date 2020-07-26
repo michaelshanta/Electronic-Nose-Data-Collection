@@ -149,6 +149,11 @@ sudo ufw allow 8083
 You can test these work by using a websocket client such as Paho to connect over 8083.
 MQTTLens (https://chrome.google.com/webstore/detail/mqttlens/hemojaaeigabkbcookmlgmdigohjobjm/related?hl=en) a Google Chrome extension is great for testing MQTT connections. 
 
+Remember your username and password!!
+
+# Setting up Flask Web Server
+
+
 
 
 
