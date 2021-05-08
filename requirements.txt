@@ -10,7 +10,7 @@ DateTime==4.3
 dnspython==1.16.0
 dominate==2.4.0
 et-xmlfile==1.0.1
-eventlet==0.25.1
+eventlet==0.31.0
 Flask==1.1.1
 Flask-Bootstrap==3.3.7.1
 Flask-Compress==1.4.0
